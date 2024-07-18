@@ -6,7 +6,7 @@ int main() {
     int a,b,c;
     cin >> a>> b >> c;
 
-    if(b >= a && b <= c){
+    if(b > a && b < c){
         cout << 1;
     }
     else{
